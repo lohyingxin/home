@@ -77,14 +77,23 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: "Software Engineer", // Here Add Company Name
-      companylogo: require("../assets/img/dell.png"),
-      date: "June 2018 – Present",
+      role: "Business Analyst Intern", // Here Add Company Name
+      companylogo: require("../assets/img/ocbc.png"),
+      date: "May 2021 – Present",
+      description: "",
+      //"\u25CF Identified opportunities to streamline current AML process by analyzing common data points used in different processes \n \u25CF Developed target solutions based on latest technology stack to drive architecture modernization",
     },
     {
-      role: "Front-End Developer",
-      companylogo: require("../assets/img/boeing.png"),
-      date: "May 2017 – May 2018",
+      role: "Communications Intern",
+      companylogo: require("../assets/img/hdb.png"),
+      date: "Mar 2019 – May 2019",
+      description: "",
+    },
+    {
+      role: "Teaching Intern",
+      companylogo: require("../assets/img/moe.png"),
+      date: "Jan 2019 – Mar 2019",
+      description: "",
     },
   ],
 };
@@ -96,7 +105,7 @@ const experiences = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Projects",
   gitHubUsername: "lohyingxin", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
