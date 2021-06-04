@@ -1,13 +1,13 @@
 {
   "name": "developers-portfolio",
-  "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://hashirshoaeb.com",
+  "description": "A personal static website/portfolio template, built to showcase my portfolio.",
+  "homepage": "http://lohyingxin.github.io/home",
   "version": "2.0.0",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "name": "Loh Ying Xin",
+    "email": "lohyingxin@outlook.com",
+    "url": "https://github.com/lohyingxin"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -23,6 +23,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
+    "react-typed": "^1.2.0",
     "react-typist": "^2.0.5",
     "typescript": "^3.9.7"
   },
