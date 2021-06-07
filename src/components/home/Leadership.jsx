@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Profiler } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-const Leadership = ({ heading, message, img, imageSize }) => {
+const Leadership = ({ heading, img, imageSize }) => {
   return (
     <div
       id='leadership'

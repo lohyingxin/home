@@ -25,6 +25,16 @@ const ExperienceCard = ({ data }) => {
           <br />
           {data.date}
           <br />
+          {/* <ul>
+            {data.description.map((description) => {
+              return (
+                <li
+                  key={description}
+                  dangerouslySetInnerHTML={{ __html: description }}
+                />
+              );
+            })}
+          </ul> */}
           {data.description}
         </p>
       </div>

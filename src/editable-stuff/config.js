@@ -41,8 +41,6 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/000402220002.jpg"),
   imageSize: 375,
-  message:
-    "Hello there! My name is Ying Xin and I am currently a penultimate Business Analytics student at the National University of Singapore. \n I am passionate about giving back to the community and utilizing data to discover novel solutions to business problems. \n Exploring new forms of art and designing are some other things I do in my free time to de-stress and re-energize!",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -74,14 +72,15 @@ const skills = {
 
 const experiences = {
   show: true,
-  heading: "Experiences",
+  heading: "Experience",
   data: [
     {
       role: "Business Analyst Intern", // Here Add Company Name
       companylogo: require("../assets/img/ocbc.png"),
       date: "May 2021 – Present",
       description: "",
-      //"\u25CF Identified opportunities to streamline current AML process by analyzing common data points used in different processes \n \u25CF Developed target solutions based on latest technology stack to drive architecture modernization",
+      //"\u25CF Identified opportunities to streamline current AML process by analyzing common data points used in different processes
+      // \n \u25CF Developed target solutions based on latest technology stack to drive architecture modernization",
     },
     {
       role: "Communications Intern",
@@ -156,6 +155,12 @@ const getInTouch = {
   email: "lohyingxin@outlook.com",
 };
 
+// EDUCATION SECTION
+const education = {
+  show: true,
+  heading: "Education",
+};
+
 // Blog SECTION
 // const blog = {
 //   show: false,
@@ -170,4 +175,5 @@ export {
   leadership,
   getInTouch,
   experiences,
+  education,
 };

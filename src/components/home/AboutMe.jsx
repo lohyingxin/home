@@ -36,7 +36,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     <div
       id='aboutme'
       className='jumbotron jumbotron-fluid m-0'
-      //style={bgStyle1}
+      style={{ backgroundColor: "#ededed" }}
     >
       <div className='container container-fluid'>
         <div className='row'>
@@ -54,7 +54,15 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
 
           <div className={`col-lg-${showPic ? "7" : "12"}`}>
             <h2 className='display-4 mb-5 text-center'>{heading}</h2>
-            <p className='lead text-center'>{message}</p>
+            <p className='lead text-center'>
+              Hello there! My name is Ying Xin and I am currently a {""}
+              <b>penultimate Business Analytics student</b> at the {""}
+              <b>National University of Singapore.</b> <br />
+              <br /> I am passionate about giving back to the community and
+              utilizing data to discover novel solutions to business problems.
+              Exploring new forms of art and designing are some other things I
+              do in my free time to de-stress and re-energize!,
+            </p>
             <div className='display-4 mb-5 text-center'></div>
             {resume && (
               <p className='lead text-center'>
