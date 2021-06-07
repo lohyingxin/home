@@ -48,53 +48,35 @@ const about = {
 const skills = {
   show: true,
   heading: "Skills",
-  hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
-  ],
-  softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
-  ],
+  hardSkills: [],
+  softSkills: [],
 };
 
 const experiences = {
   show: true,
-  heading: "Experience",
-  data: [
-    {
-      role: "Business Analyst Intern", // Here Add Company Name
-      companylogo: require("../assets/img/ocbc.png"),
-      date: "May 2021 – Present",
-      description: "",
-      //"\u25CF Identified opportunities to streamline current AML process by analyzing common data points used in different processes
-      // \n \u25CF Developed target solutions based on latest technology stack to drive architecture modernization",
-    },
-    {
-      role: "Communications Intern",
-      companylogo: require("../assets/img/hdb.png"),
-      date: "Mar 2019 – May 2019",
-      description: "",
-    },
-    {
-      role: "Teaching Intern",
-      companylogo: require("../assets/img/moe.png"),
-      date: "Jan 2019 – Mar 2019",
-      description: "",
-    },
-  ],
+  heading: "Experiences",
+  // data: [
+  //   {
+  //     role: "Business Analyst Intern", // Here Add Company Name
+  //     companylogo: require("../assets/img/ocbc.png"),
+  //     date: "May 2021 – Present",
+  //     description: "",
+  //     //"\u25CF Identified opportunities to streamline current AML process by analyzing common data points used in different processes
+  //     // \n \u25CF Developed target solutions based on latest technology stack to drive architecture modernization",
+  //   },
+  //   {
+  //     role: "Communications Intern",
+  //     companylogo: require("../assets/img/hdb.png"),
+  //     date: "Mar 2019 – May 2019",
+  //     description: "",
+  //   },
+  //   {
+  //     role: "Teaching Intern",
+  //     companylogo: require("../assets/img/moe.png"),
+  //     date: "Jan 2019 – Mar 2019",
+  //     description: "",
+  //   },
+  // ],
 };
 
 // PROJECTS SECTION
@@ -118,27 +100,35 @@ const leadership = {
   images: [
     {
       img: require("../../src/assets/img/kindle3.jpg"),
+      alt: "Kindle+ Online Session",
     },
     {
       img: require("../../src/assets/img/captslam1.JPG"),
+      alt: "CAPTSlam",
     },
     {
       img: require("../../src/assets/img/kindle1.jpg"),
+      alt: "Kindle+",
     },
     {
       img: require("../../src/assets/img/hic.jpg"),
+      alt: "House IC",
     },
     {
       img: require("../../src/assets/img/hc.JPG"),
+      alt: "Roc House Comm",
     },
     {
       img: require("../../src/assets/img/csa.jpg"),
+      alt: "Computing Student Ambass",
     },
     {
       img: require("../../src/assets/img/merch.jpg"),
+      alt: "Merch Sales",
     },
     {
       img: require("../../src/assets/img/funk.JPG"),
+      alt: "Funkstyles",
     },
   ],
   imageSize: {

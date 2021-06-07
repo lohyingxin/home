@@ -23,7 +23,7 @@ const Education = ({ heading }) => {
                     float: "left",
                     marginLeft: "20px",
                     marginRight: "155px",
-                    height: "100px",
+                    height: "150px",
                   }}
                 >
                   <img
@@ -34,19 +34,18 @@ const Education = ({ heading }) => {
                     }}
                   />
                 </div>
-                <div>
-                  <h4>BSc.(Hons) Business Analytics</h4>
-                  <p
-                    className='lead text-left'
-                    //style={{ float: "right" }}
-                  >
-                    <i>School of Computing</i>
-                    <br />
-                    <i>University Town College Programme (UTCP)</i>
-                    <br />
-                    Expected Graduation: <b>May 2023</b>
-                  </p>
-                </div>
+
+                <h4>BSc.(Hons) Business Analytics</h4>
+                <p
+                  className='lead text-left'
+                  //style={{ float: "right" }}
+                >
+                  <i>School of Computing</i>
+                  <br />
+                  <i>University Town College Programme (UTCP)</i>
+                  <br />
+                  Expected Graduation: <b>May 2023</b>
+                </p>
               </div>
             </div>
             <div
