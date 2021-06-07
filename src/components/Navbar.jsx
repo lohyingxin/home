@@ -10,6 +10,7 @@ import {
   about,
   skills,
   experiences,
+  leadership,
 } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
@@ -87,6 +88,14 @@ const Navigation = React.forwardRef((props, ref) => {
               href={process.env.PUBLIC_URL + "/#projects"}
             >
               Projects
+            </Nav.Link>
+          )}
+          {leadership.show && (
+            <Nav.Link
+              className='nav-link lead'
+              href={process.env.PUBLIC_URL + "/#leadership"}
+            >
+              Extra-Curriculars
             </Nav.Link>
           )}
           {/* <Nav.Link

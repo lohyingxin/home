@@ -113,20 +113,33 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+  show: true,
+  heading: "Extra Curricular Activities",
+  message: "",
   images: [
     {
-      img: require("../editable-stuff/000402220002.jpg"),
-      label: "First slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+      img: require("../../src/assets/img/kindle3.jpg"),
     },
     {
-      img: require("../editable-stuff/000402220002.jpg"),
-      label: "Second slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+      img: require("../../src/assets/img/captslam1.JPG"),
+    },
+    {
+      img: require("../../src/assets/img/kindle1.jpg"),
+    },
+    {
+      img: require("../../src/assets/img/hic.jpg"),
+    },
+    {
+      img: require("../../src/assets/img/hc.JPG"),
+    },
+    {
+      img: require("../../src/assets/img/csa.jpg"),
+    },
+    {
+      img: require("../../src/assets/img/merch.jpg"),
+    },
+    {
+      img: require("../../src/assets/img/funk.JPG"),
     },
   ],
   imageSize: {
