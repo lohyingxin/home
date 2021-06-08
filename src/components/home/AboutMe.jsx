@@ -61,10 +61,10 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
               <br /> I am passionate about giving back to the community and
               utilizing data to discover novel solutions to business problems.
               Exploring new forms of art and designing are some other things I
-              do in my free time to de-stress and re-energize!,
+              do in my free time to de-stress and re-energize!
             </p>
             <div className='display-4 mb-5 text-center'></div>
-            {resume && (
+            {/* {resume && (
               <p className='lead text-center'>
                 <a
                   className='btn btn-outline-dark btn-lg'
@@ -77,7 +77,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                   Resume
                 </a>
               </p>
-            )}
+            )} */}
           </div>
         </div>
       </div>

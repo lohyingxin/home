@@ -71,7 +71,7 @@ const Experience = ({ experiences }) => {
                   </b>
                   <br />
 
-                  <li>
+                  <li style={{ fontSize: "smaller" }}>
                     Identify opportunities to streamline current AML process by
                     analyzing common data points used in different processes
                   </li>
@@ -90,7 +90,7 @@ const Experience = ({ experiences }) => {
                     float: "left",
                     marginLeft: "20px",
                     marginRight: "130px",
-                    height: "290px",
+                    height: "200px",
                   }}
                 >
                   <img
@@ -105,7 +105,7 @@ const Experience = ({ experiences }) => {
                 </div>
                 <div
                   style={{
-                    height: "330px",
+                    height: "250px",
                   }}
                 >
                   <h4>Communications Intern</h4>
@@ -119,16 +119,16 @@ const Experience = ({ experiences }) => {
                       <i>Mar 2019 - May 2019</i>
                     </b>
                     <br />
-                    <li>
+                    <li style={{ fontSize: "smaller" }}>
                       Improved public communication between contractors and
                       residents by revising the Housing Improvement Programme
                       (HIP) information booklet
                     </li>
-                    <li>
+                    <li style={{ fontSize: "smaller" }}>
                       Handled the graphic design and publicity for department
                       events
                     </li>
-                    <li>
+                    <li style={{ fontSize: "smaller" }}>
                       Reviewed site visits through presentations to highlight
                       areas of improvement
                     </li>
@@ -167,15 +167,15 @@ const Experience = ({ experiences }) => {
                     <i>Jan 2019 - Mar 2019</i>
                   </b>
                   <br />
-                  <li>
+                  <li style={{ fontSize: "smaller" }}>
                     Taught lower and upper secondary Chemistry and Physics for
                     Express, NA, NT classes
                   </li>
-                  <li>
+                  <li style={{ fontSize: "smaller" }}>
                     Improved weekly lesson plans for Secondary 2 classes based
                     on daily observation and feedback from mentor
                   </li>
-                  <li>
+                  <li style={{ fontSize: "smaller" }}>
                     Honed interpersonal communication skills while conducting
                     remedial sessions for students
                   </li>
