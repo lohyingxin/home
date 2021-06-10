@@ -49,9 +49,6 @@ const Education = ({ heading }) => {
                   </i>
                   <br />
                   Expected Graduation: <b>May 2023</b>
-                  <Link to='/page' className='btn btn-primary'>
-                    hello
-                  </Link>
                 </p>
               </div>
             </div>

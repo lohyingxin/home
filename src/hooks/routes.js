@@ -12,7 +12,7 @@ import Page from "./components/home/Page";
  * Don't forget to import the components above after adding new route.
  */
 export default (
-  <Route path='/' component={App}>
+  <Route path='/home' component={App}>
     {/* <IndexRoute component={MainPage} /> */}
     <Route path='/page' component={Page} />
   </Route>
