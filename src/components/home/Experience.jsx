@@ -44,7 +44,7 @@ const Experience = ({ experiences }) => {
                 <div
                   style={{
                     float: "left",
-                    marginLeft: "20px",
+                    // marginLeft: "20px",
                     marginRight: "155px",
                     height: "150px",
                   }}
@@ -88,9 +88,9 @@ const Experience = ({ experiences }) => {
                 <div
                   style={{
                     float: "left",
-                    marginLeft: "20px",
+                    // marginLeft: "20px",
                     marginRight: "130px",
-                    height: "200px",
+                    height: "180px",
                   }}
                 >
                   <img
@@ -98,42 +98,42 @@ const Experience = ({ experiences }) => {
                     style={{
                       height: "80px",
                       float: "left",
-                      marginTop: "70px",
+                      marginTop: "10px",
                       marginLeft: "20px",
                     }}
                   />
                 </div>
-                <div
+                {/* <div
                   style={{
-                    height: "250px",
+                    height: "280px",
                   }}
+                > */}
+                <h4>Communications Intern</h4>
+                <p
+                  className='lead text-left'
+                  //style={{ float: "right" }}
                 >
-                  <h4>Communications Intern</h4>
-                  <p
-                    className='lead text-left'
-                    //style={{ float: "right" }}
-                  >
-                    <i>Building Quality Group</i>
-                    <br />
-                    <b>
-                      <i>Mar 2019 - May 2019</i>
-                    </b>
-                    <br />
-                    <li style={{ fontSize: "smaller" }}>
-                      Improved public communication between contractors and
-                      residents by revising the Housing Improvement Programme
-                      (HIP) information booklet
-                    </li>
-                    <li style={{ fontSize: "smaller" }}>
-                      Handled the graphic design and publicity for department
-                      events
-                    </li>
-                    <li style={{ fontSize: "smaller" }}>
-                      Reviewed site visits through presentations to highlight
-                      areas of improvement
-                    </li>
-                  </p>
-                </div>
+                  <i>Building Quality Group</i>
+                  <br />
+                  <b>
+                    <i>Mar 2019 - May 2019</i>
+                  </b>
+                  <br />
+                  <li style={{ fontSize: "smaller" }}>
+                    Improved public communication between contractors and
+                    residents by revising the Housing Improvement Programme
+                    (HIP) information booklet
+                  </li>
+                  <li style={{ fontSize: "smaller" }}>
+                    Handled the graphic design and publicity for department
+                    events
+                  </li>
+                  <li style={{ fontSize: "smaller" }}>
+                    Reviewed site visits through presentations to highlight
+                    areas of improvement
+                  </li>
+                </p>
+                {/* </div> */}
               </div>
             </div>
             <div className='row' style={divStyle}>
@@ -141,9 +141,10 @@ const Experience = ({ experiences }) => {
                 <div
                   style={{
                     float: "left",
-                    marginLeft: "20px",
+                    // marginLeft: "20px",
                     marginRight: "130px",
-                    height: "250px",
+                    height: "200px",
+                    marginTop: "70px",
                   }}
                 >
                   <img
@@ -151,12 +152,18 @@ const Experience = ({ experiences }) => {
                     style={{
                       height: "80px",
                       float: "left",
-                      marginTop: "70px",
-                      marginLeft: "20px",
+                      marginRight: "20px",
                     }}
                   />
                 </div>
-                <h4>Teaching Intern</h4>
+
+                <h4
+                  style={{
+                    marginTop: "50px",
+                  }}
+                >
+                  Teaching Intern
+                </h4>
                 <p
                   className='lead text-left'
                   //style={{ float: "right" }}
