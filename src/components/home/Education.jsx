@@ -1,4 +1,5 @@
 import React, { useState, useEffect, Profiler } from "react";
+import { Link } from "react-router-dom";
 
 const divStyle = {
   display: "block",
@@ -42,9 +43,15 @@ const Education = ({ heading }) => {
                 >
                   <i>School of Computing</i>
                   <br />
-                  <i>University Town College Programme (UTCP)</i>
+                  <i>
+                    University Town College Programme (UTCP) - College of Alice
+                    and Peter Tan
+                  </i>
                   <br />
                   Expected Graduation: <b>May 2023</b>
+                  <Link to='/page' className='btn btn-primary'>
+                    hello
+                  </Link>
                 </p>
               </div>
             </div>
