@@ -11,7 +11,9 @@
   </p>
 </p>
 
+<p align="center">
 [![Site preview](/public/website.gif)](https://lohyingxin.github.io/home)
+</p>
 
 ## Table of Contents
 
