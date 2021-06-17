@@ -11,8 +11,9 @@
   </p>
 </p>
 
+<!-- [![Site preview](/public/website.gif)](https://lohyingxin.github.io/home) -->
 <p align="center">
-<img src="./home/public/website.gif">
+  <img src="/public/website.gif" alt="animated" />
 </p>
 
 ## Table of Contents
