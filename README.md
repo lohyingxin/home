@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-[![Site preview](/public/website.gif)](https://lohyingxin.github.io/home)
+<img src="./home/public/website.gif">
 </p>
 
 ## Table of Contents
