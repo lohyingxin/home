@@ -11,7 +11,7 @@
   </p>
 </p>
 
-[![Site preview](/public/social-image.png)](https://lohyingxin.github.io/home)
+[![Site preview](/public/website.gif)](https://lohyingxin.github.io/home)
 
 ## Table of Contents
 
