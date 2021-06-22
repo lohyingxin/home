@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 const Leadership = ({ heading, img, imageSize }) => {
   return (
     <div
-      id='leadership'
+      id='extracurricular'
       className='jumbotron jumbotron-fluid m-0'
       style={{ backgroundColor: "white" }}
     >

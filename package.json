@@ -10,8 +10,10 @@
     "url": "https://github.com/lohyingxin"
   },
   "dependencies": {
+    "@microlink/react": "^5.5.6",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
+    "emotion": "^11.0.0",
     "gh-pages": "^2.2.0",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
@@ -25,6 +27,7 @@
     "react-scripts": "^3.4.4",
     "react-typed": "^1.2.0",
     "react-typist": "^2.0.5",
+    "styled-components": "^5.3.0",
     "typescript": "^3.9.7"
   },
   "scripts": {

@@ -4,8 +4,10 @@ const navBar = {
 };
 
 // Main Body SECTION
+//#F5B2B2, #F39A9A, #EA8398, #DE698D, #D15781, #C35175
 const mainBody = {
-  gradientColors: "#F5B2B2, #F39A9A, #EA8398, #DE698D, #D15781, #C35175",
+  gradientColors:
+    "#f5b2b2ff, #ea8398ff, #bd6262ff, #d47979ff, #e69cabff, #95c9bfff",
   firstName: "Loh",
   middleName: "",
   lastName: "Ying Xin",
@@ -18,6 +20,10 @@ const mainBody = {
     {
       image: "fa-github",
       url: "https://github.com/lohyingxin",
+    },
+    {
+      image: "fa fa-envelope",
+      url: "mailto:lohyingxin@outlook.com",
     },
   ],
 };
@@ -151,6 +157,11 @@ const education = {
   heading: "Education",
 };
 
+const gallery = {
+  show: true,
+  heading: "Gallery",
+};
+
 // Blog SECTION
 // const blog = {
 //   show: false,
@@ -166,4 +177,5 @@ export {
   getInTouch,
   experiences,
   education,
+  gallery,
 };

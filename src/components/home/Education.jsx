@@ -32,6 +32,7 @@ const Education = ({ heading }) => {
                     style={{
                       height: "130px",
                       float: "left",
+                      alt: "National University of Singapore",
                     }}
                   />
                 </div>
@@ -47,6 +48,14 @@ const Education = ({ heading }) => {
                     University Town College Programme (UTCP) - College of Alice
                     and Peter Tan
                   </i>
+                  <br />
+                  <a
+                    href='https://credentials.nus.edu.sg/6d11ec8c-b732-40c4-9c78-876354954566#gs.3xjt2l'
+                    style={{ color: "black" }}
+                  >
+                    <b>Dean's List</b>
+                  </a>
+                  <b> for AY20/21 Semester 2</b>
                   <br />
                   Expected Graduation: <b>May 2023</b>
                 </p>
@@ -74,6 +83,7 @@ const Education = ({ heading }) => {
                       float: "left",
                       marginTop: "20px",
                       marginLeft: "20px",
+                      alt: "Pioneer Junior College",
                     }}
                   />
                 </div>
