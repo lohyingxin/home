@@ -61,11 +61,6 @@ const Education = ({ heading }) => {
                 </p>
               </div>
             </div>
-            <div
-              style={{
-                height: "50px",
-              }}
-            ></div>
             <div className='row' style={divStyle}>
               <div>
                 <div

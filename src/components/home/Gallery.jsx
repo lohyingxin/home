@@ -2,6 +2,7 @@ import React, { useState, useEffect, Profiler } from "react";
 import { Link } from "react-router-dom";
 import { gallery } from "../../editable-stuff/config";
 import Card from "react-bootstrap/Card";
+import styles from "./styling.css";
 
 const Gallery = ({ heading }) => {
   return (
@@ -9,7 +10,32 @@ const Gallery = ({ heading }) => {
       <div className='container container-fluid'>
         <div className='col d-lg-inline align-self-center'>
           <h1 className='display-4 pb-4 text-center'>{heading}</h1>
-          <div class='card-deck'>
+          <p className='lead'>
+            As an{" "}
+            <i>
+              <b>art enthusiast</b>
+            </i>
+            , I have dabbled in many forms of art like{" "}
+            <b>
+              painting (Acrylic, Oil and Watercolour), embroidery, crochet, and
+              graphic design.
+            </b>{" "}
+            Most recently, I have challenged myself to try out and study all the
+            different paint brushes in Procreate, therefore have moved on to
+            focus more on digital sketching and painting. All digital works you
+            see here are thus created using different brushes and pens!{" "}
+            <b>
+              Hope you enjoy taking a look at my humble collection of practices
+              and works~ ʕ•́ᴥ•̀ʔっ♡{" "}
+            </b>
+            <br />
+            <i style={{ fontSize: "small" }}>
+              <b>
+                Disclaimer: Some works are referenced from images/artworks**
+              </b>
+            </i>{" "}
+          </p>
+          {/* <div class='card-deck'>
             <div class='Cell'>
               <p>
                 <Card style={{ width: "20rem" }}>
@@ -132,6 +158,119 @@ const Gallery = ({ heading }) => {
                   </Card.Body>
                 </Card>
               </p>
+            </div>
+          </div> */}
+          <div class='row'>
+            <div class='col-lg-4 col-md-12 mb-4 mb-lg-0'>
+              <img
+                src={require("../../assets/img/God.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/Oil.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/Peonies.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/roc.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/IMG_3763.jpg")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/roc2.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+            </div>
+            {/* //second col */}
+            <div class='col-lg-4 mb-4 mb-lg-0'>
+              <img
+                src={require("../../assets/img/hands.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/IMG_3755.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/Skeleton.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/Camper.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/IMG_9192.JPG")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/IMG_9652.JPG")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+            </div>
+            {/* //third col */}
+            <div class='col-lg-4 mb-4 mb-lg-0'>
+              <img
+                src={require("../../assets/img/Flower_Pencil.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+              <img
+                src={require("../../assets/img/IMG_9646.JPG")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+              <img
+                src={require("../../assets/img/Crane.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/IMG_3752.HEIC")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/Pythons.png")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
+
+              <img
+                src={require("../../assets/img/IMG_9193.JPG")}
+                class='w-100 shadow-1-strong rounded mb-4'
+                alt=''
+              />
             </div>
           </div>
         </div>
