@@ -10,7 +10,7 @@
 # testing
 /coverage
 
-# production
+# productionnpm 
 /build
 /public/CNAME
 # misc

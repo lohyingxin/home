@@ -46,7 +46,7 @@ const Experience = ({ experiences }) => {
                     float: "left",
                     // marginLeft: "20px",
                     marginRight: "155px",
-                    height: "150px",
+                    height: "180px",
                   }}
                 >
                   <img
@@ -64,6 +64,10 @@ const Experience = ({ experiences }) => {
                   className='lead text-left'
                   //style={{ float: "right" }}
                 >
+                  <i>
+                    <b>STEM@OCBC Programme</b>
+                  </i>
+                  <br />
                   <i>Group Operations &amp; Technology</i>
                   <br />
                   <b>
