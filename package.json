@@ -1,7 +1,11 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template, built to showcase my portfolio.",
+<<<<<<< HEAD
   "homepage": "https://lohyingxin.github.io/home",
+=======
+  "homepage": "http://lohyingxin.github.io/home",
+>>>>>>> parent of 8e130d1 (fixed package)
   "version": "2.0.0",
   "private": true,
   "author": {
