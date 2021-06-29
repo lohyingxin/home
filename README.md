@@ -13,7 +13,7 @@
 
 <!-- [![Site preview](/public/website.gif)](https://lohyingxin.github.io/home) -->
 <p align="center">
-<a href="https://lohyingxin.github.io/home">
+<a href="https://www.lohyingxin.com">
   <img src="/public/website.gif" alt="animated" />
   </a>
 </p>
