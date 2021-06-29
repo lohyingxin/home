@@ -1,7 +1,7 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template, built to showcase my portfolio.",
-  "homepage": "https://lohyingxin.github.io/home",
+  "homepage": "http://lohyingxin.github.io/home",
   "version": "2.0.0",
   "private": true,
   "author": {
