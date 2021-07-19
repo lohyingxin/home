@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.6687330c.chunk.css",
-    "main.js": "/static/js/main.e8911e11.chunk.js",
-    "main.js.map": "/static/js/main.e8911e11.chunk.js.map",
+    "main.js": "/static/js/main.23b4d88b.chunk.js",
+    "main.js.map": "/static/js/main.23b4d88b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.554504a0.js",
     "runtime-main.js.map": "/static/js/runtime-main.554504a0.js.map",
-    "static/js/2.a79f050f.chunk.js": "/static/js/2.a79f050f.chunk.js",
-    "static/js/2.a79f050f.chunk.js.map": "/static/js/2.a79f050f.chunk.js.map",
+    "static/js/2.c20069b0.chunk.js": "/static/js/2.c20069b0.chunk.js",
+    "static/js/2.c20069b0.chunk.js.map": "/static/js/2.c20069b0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e1ca4aaa61b2b32631470a9b29a1dc73.js": "/precache-manifest.e1ca4aaa61b2b32631470a9b29a1dc73.js",
+    "precache-manifest.4a249d1b8c8527034c7d85e3f23aa1bf.js": "/precache-manifest.4a249d1b8c8527034c7d85e3f23aa1bf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.6687330c.chunk.css.map": "/static/css/main.6687330c.chunk.css.map",
-    "static/js/2.a79f050f.chunk.js.LICENSE.txt": "/static/js/2.a79f050f.chunk.js.LICENSE.txt",
+    "static/js/2.c20069b0.chunk.js.LICENSE.txt": "/static/js/2.c20069b0.chunk.js.LICENSE.txt",
     "static/media/000402220002.jpg": "/static/media/000402220002.15453ba8.jpg",
     "static/media/Camper.png": "/static/media/Camper.02e86497.png",
     "static/media/Crane.png": "/static/media/Crane.c01b72fb.png",
@@ -28,6 +28,7 @@
     "static/media/Peonies.png": "/static/media/Peonies.ad2a8919.png",
     "static/media/Pythons.png": "/static/media/Pythons.41581376.png",
     "static/media/Skeleton.png": "/static/media/Skeleton.d31ae679.png",
+    "static/media/aws.png": "/static/media/aws.5e050363.png",
     "static/media/captslam1.JPG": "/static/media/captslam1.a846eebd.JPG",
     "static/media/collab.svg": "/static/media/collab.be9bc955.svg",
     "static/media/communication.svg": "/static/media/communication.4ff11c7a.svg",
@@ -69,8 +70,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.554504a0.js",
-    "static/js/2.a79f050f.chunk.js",
+    "static/js/2.c20069b0.chunk.js",
     "static/css/main.6687330c.chunk.css",
-    "static/js/main.e8911e11.chunk.js"
+    "static/js/main.23b4d88b.chunk.js"
   ]
 }
