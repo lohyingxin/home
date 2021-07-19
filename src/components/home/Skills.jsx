@@ -162,16 +162,9 @@ const Skills = () => {
                     />
                   </div>
                   <div className='col text-center'>
-                    {/* <p className='lead text-center'>Git</p>
+                    {/* <p className='lead text-center'>Excel</p>
                     <img
-                      src={require("../../assets/img/git.png")}
-                      style={{ height: "100px" }}
-                    /> */}
-                  </div>
-                  <div className='col text-center'>
-                    {/* <p className='lead text-center'>Flask</p>
-                    <img
-                      src={require("../../assets/img/flask.png")}
+                      src={require("../../assets/img/excel.png")}
                       style={{ height: "100px" }}
                     /> */}
                   </div>
