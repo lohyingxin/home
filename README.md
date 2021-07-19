@@ -5,7 +5,7 @@
 
   <p align="center">
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://lohyingxin.github.io/home">lohyingxin.github.io/home</a>
+    <a href="https://www.lohyingxin.com">lohyingxin.com</a>
     <br />
     <br />
   </p>
@@ -13,7 +13,7 @@
 
 <!-- [![Site preview](/public/website.gif)](https://lohyingxin.github.io/home) -->
 <p align="center">
-<a href="https://lohyingxin.github.io/home">
+<a href="https://www.lohyingxin.com">
   <img src="/public/website.gif" alt="animated" />
   </a>
 </p>
