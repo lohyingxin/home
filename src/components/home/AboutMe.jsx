@@ -56,7 +56,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             <h2 className='display-4 mb-5 text-center'>{heading}</h2>
             <p className='lead text-center'>
               Hello there! My name is Ying Xin and I am currently a {""}
-              <b>penultimate Business Analytics student</b> at the {""}
+              <b>penultimate year Business Analytics student</b> at the {""}
               <b>National University of Singapore.</b> <br />
               <br /> I am passionate about giving back to the community and
               utilizing data to discover novel solutions to business problems.
