@@ -46,7 +46,7 @@ const Experience = ({ experiences }) => {
                     float: "left",
                     // marginLeft: "20px",
                     marginRight: "155px",
-                    height: "180px",
+                    height: "500px",
                   }}
                 >
                   <img
@@ -54,11 +54,38 @@ const Experience = ({ experiences }) => {
                     style={{
                       height: "80px",
                       float: "left",
-                      marginTop: "35px",
+                      marginTop: "190px",
                     }}
                   />
                 </div>
+                <h4>Technology Architect Intern</h4>
+                <p
+                  className='lead text-left'
+                  //style={{ float: "right" }}
+                >
+                  <i>
+                    <b>STEM@OCBC Programme</b>
+                  </i>
+                  <br />
+                  <i>
+                    Group Operations &amp; Technology, Transformation
+                    Architecture Team
+                  </i>
+                  <br />
+                  <b>
+                    <i>Aug 2021 - Present</i>
+                  </b>
+                  <br />
 
+                  <li style={{ fontSize: "smaller" }}>
+                    Conducted market study and research on emerging technologies
+                    in Cloud technology
+                  </li>
+                  <li style={{ fontSize: "smaller" }}>
+                    Assist with the implementation of Terraform into the Bank's
+                    exisitng infrastructure
+                  </li>
+                </p>
                 <h4>Business Analyst Intern</h4>
                 <p
                   className='lead text-left'
@@ -68,16 +95,27 @@ const Experience = ({ experiences }) => {
                     <b>STEM@OCBC Programme</b>
                   </i>
                   <br />
-                  <i>Group Operations &amp; Technology</i>
+                  <i>
+                    Group Operations &amp; Technology, Technology Solutions Team
+                  </i>
                   <br />
                   <b>
-                    <i>May 2021 - Present</i>
+                    <i>May 2021 - Jul 2021</i>
                   </b>
                   <br />
 
                   <li style={{ fontSize: "smaller" }}>
-                    Identify opportunities to streamline current AML process by
-                    analyzing common data points used in different processes
+                    Conducted market study and research on emerging technologies
+                    in the Anti-Money Laundering (AML) Know Your Customer (KYC)
+                    solutions industry
+                  </li>
+                  <li style={{ fontSize: "smaller" }}>
+                    Retrieved and performed trend analysis on AML data in
+                    multiple dimensions from the Hadoop environment
+                  </li>
+                  <li style={{ fontSize: "smaller" }}>
+                    Worked with solutions team to plan and budget for Group
+                    Legal and Regulatory Compliance's (GLRC) OP2022
                   </li>
                 </p>
               </div>
