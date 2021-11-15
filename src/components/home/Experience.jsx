@@ -39,7 +39,71 @@ const Experience = ({ experiences }) => {
             <h1 className='display-4 pb-4 text-center'>
               {experiences.heading}
             </h1>
+            <div
+              style={{
+                height: "30px",
+              }}
+            ></div>
             <div className='row' style={divStyle}>
+              <div>
+                <div
+                  style={{
+                    float: "left",
+                    // marginLeft: "20px",
+                    marginRight: "130px",
+                    height: "180px",
+                  }}
+                >
+                  <img
+                    src={require("../../assets/img/shopee.svg")}
+                    style={{
+                      height: "120px",
+                      float: "left",
+                      marginTop: "10px",
+                      marginLeft: "70px",
+                      marginRight: "-40px",
+                    }}
+                  />
+                </div>
+                {/* <div
+                  style={{
+                    height: "280px",
+                  }}
+                > */}
+                <h4>Data Analytics Intern</h4>
+                <p
+                  className='lead text-left'
+                  //style={{ float: "right" }}
+                >
+                  <i>Regional Operations, Customer Service</i>
+                  <br />
+                  <b>
+                    <i>Nov 2021 - Present</i>
+                  </b>
+                  <br />
+                  <li style={{ fontSize: "smaller" }}>
+                    Analyse and monitor operational key performance indicators
+                    across the region (including logistics, payment, customer
+                    satisfaction, listing, etc.)
+                  </li>
+                  <li style={{ fontSize: "smaller" }}>
+                    Conduct root cause analysis when operational performance
+                    fluctuates
+                  </li>
+                  {/* <li style={{ fontSize: "smaller" }}>
+                    Reviewed site visits through presentations to highlight
+                    areas of improvement
+                  </li> */}
+                </p>
+                {/* </div> */}
+              </div>
+            </div>
+            <div className='row' style={divStyle}>
+              <div
+                style={{
+                  height: "50px",
+                }}
+              ></div>
               <div>
                 <div
                   style={{
@@ -55,6 +119,8 @@ const Experience = ({ experiences }) => {
                       height: "80px",
                       float: "left",
                       marginTop: "190px",
+                      marginRight: "-74px",
+                      marginLeft: "50px",
                     }}
                   />
                 </div>
@@ -73,7 +139,7 @@ const Experience = ({ experiences }) => {
                   </i>
                   <br />
                   <b>
-                    <i>Aug 2021 - Present</i>
+                    <i>Aug 2021 - Oct 2021</i>
                   </b>
                   <br />
 
@@ -86,6 +152,11 @@ const Experience = ({ experiences }) => {
                     exisitng infrastructure
                   </li>
                 </p>
+                <div
+                  style={{
+                    height: "30px",
+                  }}
+                ></div>
                 <h4>Business Analyst Intern</h4>
                 <p
                   className='lead text-left'
@@ -141,7 +212,8 @@ const Experience = ({ experiences }) => {
                       height: "80px",
                       float: "left",
                       marginTop: "10px",
-                      marginLeft: "20px",
+                      marginLeft: "70px",
+                      marginRight: "-70px",
                     }}
                   />
                 </div>
@@ -194,7 +266,8 @@ const Experience = ({ experiences }) => {
                     style={{
                       height: "80px",
                       float: "left",
-                      marginRight: "20px",
+                      marginRight: "-50px",
+                      marginLeft: "50px",
                     }}
                   />
                 </div>
