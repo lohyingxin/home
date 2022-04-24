@@ -91,8 +91,8 @@ const Experience = ({ experiences }) => {
                     fluctuates
                   </li>
                   <li style={{ fontSize: "smaller" }}>
-                    Retrieved regional data weekly to compile performance report
-                    for all 8 RegOps groups
+                    Retrieved regional data weekly to compile performance
+                    reports for all 8 RegOps groups
                   </li>
                   {/* <li style={{ fontSize: "smaller" }}>
                     Reviewed site visits through presentations to highlight
