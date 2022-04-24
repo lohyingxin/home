@@ -32,7 +32,7 @@ const Education = ({ heading }) => {
                     style={{
                       height: "130px",
                       float: "left",
-                      alt: "National University of Singapore",
+                      alt: "National University of Singapore Logo",
                     }}
                   />
                 </div>
@@ -58,6 +58,50 @@ const Education = ({ heading }) => {
                   <b> for AY20/21 Semester 2</b>
                   <br />
                   Expected Graduation: <b>May 2023</b>
+                </p>
+              </div>
+            </div>
+            <div className='row' style={divStyle}>
+              <div>
+                <div
+                  style={{
+                    float: "left",
+                    marginLeft: "20px",
+                    marginRight: "100px",
+                    height: "160px",
+                  }}
+                >
+                  <img
+                    src={require("../../assets/img/ntu.png")}
+                    style={{
+                      height: "120px",
+                      float: "left",
+                      marginTop: "30px",
+                      alt: "Nanyang Technological University Logo",
+                    }}
+                  />
+                </div>
+
+                <h4>BSc. Data Science and Artificial Intelligence</h4>
+                <p
+                  className='lead text-left'
+                  //style={{ float: "right" }}
+                >
+                  <i>School Computer Science and Engineering</i>
+                  <br />
+                  <i>
+                    <b>
+                      Singapore University Student Exchange Programme (SUSEP)
+                    </b>
+                  </i>
+                  <br />
+                  Exchange Period: <b>Jan 2022 - May 2022</b>
+                  <br />
+                  Coursework:{" "}
+                  <b>
+                    Big Data Management, Machine Learning, Network Science,
+                    Numerical Analysis
+                  </b>
                 </p>
               </div>
             </div>

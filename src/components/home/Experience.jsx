@@ -78,7 +78,7 @@ const Experience = ({ experiences }) => {
                   <i>Regional Operations, Customer Service</i>
                   <br />
                   <b>
-                    <i>Nov 2021 - Present</i>
+                    <i>Nov 2021 - Jan 2022</i>
                   </b>
                   <br />
                   <li style={{ fontSize: "smaller" }}>
@@ -89,6 +89,10 @@ const Experience = ({ experiences }) => {
                   <li style={{ fontSize: "smaller" }}>
                     Conduct root cause analysis when operational performance
                     fluctuates
+                  </li>
+                  <li style={{ fontSize: "smaller" }}>
+                    Retrieved regional data weekly to compile performance report
+                    for all 8 RegOps groups
                   </li>
                   {/* <li style={{ fontSize: "smaller" }}>
                     Reviewed site visits through presentations to highlight
