@@ -45,9 +45,9 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/000402220002.jpg"),
+  imageLink: require("../editable-stuff/000932160011.jpg"),
   imageSize: 375,
-  resume: require("../editable-stuff/resume.pdf"),
+  //resume: require("../editable-stuff/resume.pdf"),
 };
 
 // SKILLS SECTION
@@ -157,10 +157,10 @@ const education = {
   heading: "Education",
 };
 
-const gallery = {
-  show: true,
-  heading: "Gallery",
-};
+// const gallery = {
+//   show: true,
+//   heading: "Gallery",
+// };
 
 // Blog SECTION
 // const blog = {
@@ -177,5 +177,5 @@ export {
   getInTouch,
   experiences,
   education,
-  gallery,
+  //gallery,
 };

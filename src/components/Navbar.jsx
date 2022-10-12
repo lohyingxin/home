@@ -12,7 +12,7 @@ import {
   experiences,
   leadership,
   education,
-  gallery,
+  //gallery,
 } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
@@ -108,14 +108,14 @@ const Navigation = React.forwardRef((props, ref) => {
               Extra-Curriculars
             </Nav.Link>
           )}
-          {gallery.show && (
+          {/* {gallery.show && (
             <Nav.Link
               className='nav-link lead'
               href={process.env.PUBLIC_URL + "/#gallery"}
             >
               Gallery
             </Nav.Link>
-          )}
+          )} */}
           {/* <Nav.Link
             className='nav-link lead'
             href={about.resume}

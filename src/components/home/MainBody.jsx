@@ -29,12 +29,7 @@ const MainBody = React.forwardRef(
           <h3 style={{ fontWeight: "lighter" }}>
             I am a&nbsp;
             <Typed
-              strings={[
-                "Data Analyst",
-                "Web Developer",
-                "Business Analyst",
-                "Designer",
-              ]}
+              strings={["Data Analyst", "Web Developer", "Business Analyst"]}
               typeSpeed={80}
               backDelay={1100}
               backSpeed={30}

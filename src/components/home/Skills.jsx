@@ -56,7 +56,13 @@ const Skills = () => {
                       style={{ height: "100px" }}
                     />
                   </div>
-
+                  <div className='col text-center'>
+                    <p className='lead text-center'>Scala</p>
+                    <img
+                      src={require("../../assets/img/scala.png")}
+                      style={{ height: "100px" }}
+                    />
+                  </div>
                   <div className='col text-center'>
                     <p className='lead text-center'>R</p>
                     <img
@@ -64,13 +70,7 @@ const Skills = () => {
                       style={{ height: "100px" }}
                     />
                   </div>
-                  <div className='col text-center'>
-                    <p className='lead text-center'>HTML</p>
-                    <img
-                      src={require("../../assets/img/html.png")}
-                      style={{ height: "100px" }}
-                    />
-                  </div>
+
                   <div className='col text-center'>
                     <p className='lead text-center'>CSS</p>
                     <img
@@ -155,6 +155,44 @@ const Skills = () => {
                     />
                   </div>
                   <div className='col text-center'>
+                    <p className='lead text-center'>Alteryx</p>
+                    <img
+                      src={require("../../assets/img/alteryx.svg")}
+                      style={{ height: "100px" }}
+                    />
+                  </div>
+                  <div className='col text-center'>
+                    <p className='lead text-center'>HTML</p>
+                    <img
+                      src={require("../../assets/img/html.png")}
+                      style={{ height: "100px" }}
+                    />
+                  </div>
+                </div>
+                <br />
+                <div className='row' style={divStyle}>
+                  <div className='col text-center'>
+                    <p className='lead text-center'>Vue</p>
+                    <img
+                      src={require("../../assets/img/vue.png")}
+                      style={{ height: "100px" }}
+                    />
+                  </div>
+                  <div className='col text-center'>
+                    <p className='lead text-center'>Spark</p>
+                    <img
+                      src={require("../../assets/img/spark.png")}
+                      style={{ height: "80px" }}
+                    />
+                  </div>
+                  <div className='col text-center'>
+                    <p className='lead text-center'>Hadoop DFS</p>
+                    <img
+                      src={require("../../assets/img/hadoop.svg")}
+                      style={{ height: "100px" }}
+                    />
+                  </div>
+                  <div className='col text-center'>
                     <p className='lead text-center'>Excel</p>
                     <img
                       src={require("../../assets/img/excel.png")}
@@ -162,9 +200,16 @@ const Skills = () => {
                     />
                   </div>
                   <div className='col text-center'>
-                    {/* <p className='lead text-center'>Excel</p>
+                    {/* <p className='lead text-center'>Alteryx</p>
                     <img
-                      src={require("../../assets/img/excel.png")}
+                      src={require("../../assets/img/alteryx.svg")}
+                      style={{ height: "100px" }}
+                    /> */}
+                  </div>
+                  <div className='col text-center'>
+                    {/* <p className='lead text-center'>HTML</p>
+                    <img
+                      src={require("../../assets/img/html.png")}
                       style={{ height: "100px" }}
                     /> */}
                   </div>

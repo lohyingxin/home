@@ -51,6 +51,69 @@ const Experience = ({ experiences }) => {
                     float: "left",
                     // marginLeft: "20px",
                     marginRight: "130px",
+                    height: "200px",
+                  }}
+                >
+                  <img
+                    src={require("../../assets/img/goldman.png")}
+                    style={{
+                      height: "130px",
+                      float: "left",
+                      marginTop: "40px",
+                      marginLeft: "160px",
+                      marginRight: "85px",
+                    }}
+                  />
+                </div>
+                {/* <div
+                  style={{
+                    height: "280px",
+                  }}
+                > */}
+                <h4>Summer Analyst</h4>
+                <p
+                  className='lead text-left'
+                  //style={{ float: "right" }}
+                >
+                  <i>Operations, Commodities</i>
+                  <br />
+                  <b>
+                    <i>May 2022 - Jul 2022</i>
+                  </b>
+                  <br />
+                  <li style={{ fontSize: "smaller" }}>
+                    Built Alteryx workflows to automate data analysis for
+                    reports to managers, achieving daily time savings of 15
+                    minutes per workflow
+                  </li>
+                  <li style={{ fontSize: "smaller" }}>
+                    Created a dynamic real-time dashboard for commodities trade,
+                    reporting pitfalls in trade operations to improve on for
+                    managers to take note
+                  </li>
+                  <li style={{ fontSize: "smaller" }}>
+                    Worked on ad-hoc and voluntary data analytics projects
+                  </li>
+                  {/* <li style={{ fontSize: "smaller" }}>
+                    Reviewed site visits through presentations to highlight
+                    areas of improvement
+                  </li> */}
+                </p>
+                {/* </div> */}
+              </div>
+            </div>
+            <div
+              style={{
+                height: "50px",
+              }}
+            ></div>
+            <div className='row' style={divStyle}>
+              <div>
+                <div
+                  style={{
+                    float: "left",
+                    // marginLeft: "20px",
+                    marginRight: "130px",
                     height: "180px",
                   }}
                 >

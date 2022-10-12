@@ -24,7 +24,7 @@ const Education = ({ heading }) => {
                     float: "left",
                     marginLeft: "20px",
                     marginRight: "155px",
-                    height: "150px",
+                    height: "170px",
                   }}
                 >
                   <img
@@ -32,6 +32,7 @@ const Education = ({ heading }) => {
                     style={{
                       height: "130px",
                       float: "left",
+                      marginTop: "30px",
                       alt: "National University of Singapore Logo",
                     }}
                   />
@@ -58,9 +59,67 @@ const Education = ({ heading }) => {
                   <b> for AY20/21 Semester 2</b>
                   <br />
                   Expected Graduation: <b>May 2023</b>
+                  <br />
+                  Expected Grade: <b>Distinction</b>
                 </p>
               </div>
             </div>
+            <div
+              style={{
+                height: "30px",
+              }}
+            ></div>
+            <div className='row' style={divStyle}>
+              <div>
+                <div
+                  style={{
+                    float: "left",
+                    marginLeft: "20px",
+                    marginRight: "100px",
+                    height: "160px",
+                  }}
+                >
+                  <img
+                    src={require("../../assets/img/delft.png")}
+                    style={{
+                      height: "150px",
+                      float: "left",
+                      marginRight: "70px",
+                      alt: "Delft University of Technology Logo",
+                    }}
+                  />
+                </div>
+
+                <h4>BSc. Computer Science</h4>
+                <p
+                  className='lead text-left'
+                  //style={{ float: "right" }}
+                >
+                  <i>
+                    Faculty of Electrical Engineering, Mathematics and Computer
+                    Science
+                  </i>
+                  <br />
+                  <i>
+                    <b>Student Exchange Programme (SEP)</b>
+                  </i>
+                  <br />
+                  Exchange Period: <b>Sep 2022 - Jan 2023</b>
+                  <br />
+                  Coursework:{" "}
+                  <b>
+                    Web Science and Engineering, Big Data Processing, Start-Up:
+                    IT and AI, Technology Entrepreneurship and Health, Urban
+                    Data Science
+                  </b>
+                </p>
+              </div>
+            </div>
+            <div
+              style={{
+                height: "30px",
+              }}
+            ></div>
             <div className='row' style={divStyle}>
               <div>
                 <div
@@ -105,6 +164,11 @@ const Education = ({ heading }) => {
                 </p>
               </div>
             </div>
+            <div
+              style={{
+                height: "30px",
+              }}
+            ></div>
             <div className='row' style={divStyle}>
               <div>
                 <div
