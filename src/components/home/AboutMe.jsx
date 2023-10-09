@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../../editable-stuff/resume.pdf";
+//import Pdf from "../../editable-stuff/resume.pdf";
 
 import axios from "axios";
 
@@ -7,7 +7,7 @@ const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
 );
 
-const AboutMe = ({ heading, message, link, imgSize, resume }) => {
+const AboutMe = ({ heading, message, link, imgSize }) => {
   const [profilePicUrl, setProfilePicUrl] = React.useState("");
   const [showPic, setShowPic] = React.useState(Boolean(link));
   //const bgStyle1 = { backgroundColor: "#fff2f6" };
@@ -55,18 +55,12 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           <div className={`col-lg-${showPic ? "7" : "12"}`}>
             <h2 className='display-4 mb-5 text-center'>{heading}</h2>
             <p className='lead text-center'>
-              Hello there! My name is Ying Xin and I am currently a {""}
-              <b>final year Business Analytics student</b> at the {""}
+              Hello there! My name is Ying Xin and I graduated with a {""}
+              <b>Bachelor of Science (Hons.) in Business Analytics</b> from the {""}
               <b>National University of Singapore.</b> I am passionate about
               giving back to the community and utilizing data to discover novel
               solutions to business problems. <br />
               <br />
-              <b>
-                <i>
-                  I am looking for full-time roles upon graduation in May 2023,
-                  do reach out to me if you have any opportunities!
-                </i>
-              </b>
             </p>
             <div className='display-4 mb-5 text-center'></div>
             {/* {resume && (

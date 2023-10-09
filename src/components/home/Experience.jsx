@@ -55,51 +55,78 @@ const Experience = ({ experiences }) => {
                   }}
                 >
                   <img
+                    src={require("../../assets/img/seamoney.png")}
+                    style={{
+                      height: "130px",
+                      float: "left",
+                      marginLeft: "200px",
+                      marginRight: "50px",
+                    }}
+                  />
+                </div>
+                <div
+                  style={{
+                    height: "170px",
+                  }}
+                >
+                <h4>Business Intelligence Intern</h4>
+                <p
+                  className='lead text-left'
+                  //style={{ float: "right" }}
+                >
+                  <i>Credit Business, Insurance</i>
+                  <br />
+                  <b>
+                    <i>Jan 2023 - May 2023</i>
+                  </b>
+                  <br />
+                </p>
+                </div>
+              </div>
+            </div>
+            <div
+              style={{
+                height: "30px",
+              }}
+            ></div>
+            <div className='row' style={divStyle}>
+              <div>
+                <div
+                  style={{
+                    float: "left",
+                    // marginLeft: "20px",
+                    marginRight: "130px",
+                    height: "200px",
+                  }}
+                >
+                  <img
                     src={require("../../assets/img/goldman.png")}
                     style={{
                       height: "130px",
                       float: "left",
-                      marginTop: "40px",
-                      marginLeft: "160px",
-                      marginRight: "85px",
+                      marginLeft: "200px",
+                      marginRight: "50px",
                     }}
                   />
                 </div>
-                {/* <div
+                <div
                   style={{
-                    height: "280px",
+                    height: "170px",
                   }}
-                > */}
+                >
                 <h4>Summer Analyst</h4>
                 <p
                   className='lead text-left'
                   //style={{ float: "right" }}
                 >
-                  <i>Operations, Commodities</i>
+                  <i>Global Markets Operations, Commodities</i>
                   <br />
                   <b>
                     <i>May 2022 - Jul 2022</i>
                   </b>
                   <br />
-                  <li style={{ fontSize: "smaller" }}>
-                    Built Alteryx workflows to automate data analysis for
-                    reports to managers, achieving daily time savings of 15
-                    minutes per workflow
-                  </li>
-                  <li style={{ fontSize: "smaller" }}>
-                    Created a dynamic real-time dashboard for commodities trade,
-                    reporting pitfalls in trade operations to improve on for
-                    managers to take note
-                  </li>
-                  <li style={{ fontSize: "smaller" }}>
-                    Worked on ad-hoc and voluntary data analytics projects
-                  </li>
-                  {/* <li style={{ fontSize: "smaller" }}>
-                    Reviewed site visits through presentations to highlight
-                    areas of improvement
-                  </li> */}
                 </p>
-                {/* </div> */}
+                </div>
               </div>
             </div>
             <div
@@ -113,8 +140,8 @@ const Experience = ({ experiences }) => {
                   style={{
                     float: "left",
                     // marginLeft: "20px",
-                    marginRight: "130px",
-                    height: "180px",
+                    marginRight: "155px",
+                    height: "200px",
                   }}
                 >
                   <img
@@ -122,17 +149,17 @@ const Experience = ({ experiences }) => {
                     style={{
                       height: "120px",
                       float: "left",
-                      marginTop: "10px",
+                      marginTop: "-20px",
                       marginLeft: "70px",
-                      marginRight: "-40px",
+                      marginRight: "-65px",
                     }}
                   />
                 </div>
-                {/* <div
+                <div
                   style={{
-                    height: "280px",
+                    height: "150px",
                   }}
-                > */}
+                >
                 <h4>Data Analytics Intern</h4>
                 <p
                   className='lead text-left'
@@ -144,25 +171,8 @@ const Experience = ({ experiences }) => {
                     <i>Nov 2021 - Jan 2022</i>
                   </b>
                   <br />
-                  <li style={{ fontSize: "smaller" }}>
-                    Analyse and monitor operational key performance indicators
-                    across the region (including logistics, payment, customer
-                    satisfaction, listing, etc.)
-                  </li>
-                  <li style={{ fontSize: "smaller" }}>
-                    Conduct root cause analysis when operational performance
-                    fluctuates
-                  </li>
-                  <li style={{ fontSize: "smaller" }}>
-                    Retrieved regional data weekly to compile performance
-                    reports for all 8 RegOps groups
-                  </li>
-                  {/* <li style={{ fontSize: "smaller" }}>
-                    Reviewed site visits through presentations to highlight
-                    areas of improvement
-                  </li> */}
                 </p>
-                {/* </div> */}
+                </div>
               </div>
             </div>
             <div className='row' style={divStyle}>
@@ -177,7 +187,7 @@ const Experience = ({ experiences }) => {
                     float: "left",
                     // marginLeft: "20px",
                     marginRight: "155px",
-                    height: "500px",
+                    height: "300px",
                   }}
                 >
                   <img
@@ -185,7 +195,7 @@ const Experience = ({ experiences }) => {
                     style={{
                       height: "80px",
                       float: "left",
-                      marginTop: "190px",
+                      marginTop: "100px",
                       marginRight: "-74px",
                       marginLeft: "50px",
                     }}
@@ -210,14 +220,7 @@ const Experience = ({ experiences }) => {
                   </b>
                   <br />
 
-                  <li style={{ fontSize: "smaller" }}>
-                    Conducted market study and research on emerging technologies
-                    in Cloud technology
-                  </li>
-                  <li style={{ fontSize: "smaller" }}>
-                    Assist with the implementation of Terraform into the Bank's
-                    exisitng infrastructure
-                  </li>
+
                 </p>
                 <div
                   style={{
@@ -240,134 +243,6 @@ const Experience = ({ experiences }) => {
                   <b>
                     <i>May 2021 - Jul 2021</i>
                   </b>
-                  <br />
-
-                  <li style={{ fontSize: "smaller" }}>
-                    Conducted market study and research on emerging technologies
-                    in the Anti-Money Laundering (AML) Know Your Customer (KYC)
-                    solutions industry
-                  </li>
-                  <li style={{ fontSize: "smaller" }}>
-                    Retrieved and performed trend analysis on AML data in
-                    multiple dimensions from the Hadoop environment
-                  </li>
-                  <li style={{ fontSize: "smaller" }}>
-                    Worked with solutions team to plan and budget for Group
-                    Legal and Regulatory Compliance's (GLRC) OP2022
-                  </li>
-                </p>
-              </div>
-            </div>
-            <div
-              style={{
-                height: "50px",
-              }}
-            ></div>
-            <div className='row' style={divStyle}>
-              <div>
-                <div
-                  style={{
-                    float: "left",
-                    // marginLeft: "20px",
-                    marginRight: "130px",
-                    height: "180px",
-                  }}
-                >
-                  <img
-                    src={require("../../assets/img/hdb.png")}
-                    style={{
-                      height: "80px",
-                      float: "left",
-                      marginTop: "10px",
-                      marginLeft: "70px",
-                      marginRight: "-70px",
-                    }}
-                  />
-                </div>
-                {/* <div
-                  style={{
-                    height: "280px",
-                  }}
-                > */}
-                <h4>Communications Intern</h4>
-                <p
-                  className='lead text-left'
-                  //style={{ float: "right" }}
-                >
-                  <i>Building Quality Group</i>
-                  <br />
-                  <b>
-                    <i>Mar 2019 - May 2019</i>
-                  </b>
-                  <br />
-                  <li style={{ fontSize: "smaller" }}>
-                    Improved public communication between contractors and
-                    residents by revising the Housing Improvement Programme
-                    (HIP) information booklet
-                  </li>
-                  <li style={{ fontSize: "smaller" }}>
-                    Handled the graphic design and publicity for department
-                    events
-                  </li>
-                  <li style={{ fontSize: "smaller" }}>
-                    Reviewed site visits through presentations to highlight
-                    areas of improvement
-                  </li>
-                </p>
-                {/* </div> */}
-              </div>
-            </div>
-            <div className='row' style={divStyle}>
-              <div>
-                <div
-                  style={{
-                    float: "left",
-                    // marginLeft: "20px",
-                    marginRight: "130px",
-                    height: "200px",
-                    marginTop: "70px",
-                  }}
-                >
-                  <img
-                    src={require("../../assets/img/moe.png")}
-                    style={{
-                      height: "80px",
-                      float: "left",
-                      marginRight: "-50px",
-                      marginLeft: "50px",
-                    }}
-                  />
-                </div>
-
-                <h4
-                  style={{
-                    marginTop: "50px",
-                  }}
-                >
-                  Teaching Intern
-                </h4>
-                <p
-                  className='lead text-left'
-                  //style={{ float: "right" }}
-                >
-                  <i>Hua Yi Secondary School</i>
-                  <br />
-                  <b>
-                    <i>Jan 2019 - Mar 2019</i>
-                  </b>
-                  <br />
-                  <li style={{ fontSize: "smaller" }}>
-                    Taught lower and upper secondary Chemistry and Physics for
-                    Express, NA, NT classes
-                  </li>
-                  <li style={{ fontSize: "smaller" }}>
-                    Improved weekly lesson plans for Secondary 2 classes based
-                    on daily observation and feedback from mentor
-                  </li>
-                  <li style={{ fontSize: "smaller" }}>
-                    Honed interpersonal communication skills while conducting
-                    remedial sessions for students
-                  </li>
                 </p>
               </div>
             </div>

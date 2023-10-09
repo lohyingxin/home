@@ -98,50 +98,7 @@ const repos = {
   specificRepos: [],
 };
 
-// Leadership SECTION
-const leadership = {
-  show: true,
-  heading: "Extra Curricular Activities",
-  message: "",
-  images: [
-    {
-      img: require("../../src/assets/img/kindle3.jpg"),
-      alt: "Kindle+ Online Session",
-    },
-    {
-      img: require("../../src/assets/img/captslam1.JPG"),
-      alt: "CAPTSlam",
-    },
-    {
-      img: require("../../src/assets/img/kindle1.jpg"),
-      alt: "Kindle+",
-    },
-    {
-      img: require("../../src/assets/img/hic.jpg"),
-      alt: "House IC",
-    },
-    {
-      img: require("../../src/assets/img/hc.JPG"),
-      alt: "Roc House Comm",
-    },
-    {
-      img: require("../../src/assets/img/csa.jpg"),
-      alt: "Computing Student Ambass",
-    },
-    {
-      img: require("../../src/assets/img/merch.jpg"),
-      alt: "Merch Sales",
-    },
-    {
-      img: require("../../src/assets/img/funk.JPG"),
-      alt: "Funkstyles",
-    },
-  ],
-  imageSize: {
-    width: "615",
-    height: "450",
-  },
-};
+
 
 // GET IN TOUCH SECTION
 const getInTouch = {
@@ -173,7 +130,6 @@ export {
   about,
   skills,
   repos,
-  leadership,
   getInTouch,
   experiences,
   education,
